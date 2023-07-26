@@ -16,7 +16,7 @@ h1
 {
     text-align: center;
 }
-input 
+input[type="number"] 
 {
     padding: 10px;
     border: 1px solid #ccc;
@@ -24,6 +24,10 @@ input
     outline: none;
     margin: 10px 0px;
     width: 100%;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
 button {
     padding: 10px;
